@@ -14,7 +14,7 @@ app.post("/events", (req, res) => {
   res.send({ status: "OK" });
 });
 
-const PORT = 4005;
+const PORT = 2022;
 
 app.listen(PORT, () => {
     console.log(`Listening on port ${PORT}`);

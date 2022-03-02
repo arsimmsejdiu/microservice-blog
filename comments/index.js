@@ -28,7 +28,7 @@ app.post("/posts/:id/comments", (req, res) => {
   res.status(201).json(comments);
 });
 
-const PORT = 1002;
+const PORT = 1990;
 
 app.listen(PORT, () => {
   console.log(`[App] running on port ${PORT}`);
